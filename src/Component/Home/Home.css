@@ -1,0 +1,25 @@
+.home h1 {
+  display: flex;
+
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vmin;
+  text-shadow: 4px 4px 0px #3f7fbf;
+  mix-blend-mode: screen;
+  animation: fadeIn 2.5s linear forwards;
+  margin: 0;
+  position: absolute;
+  top: 250px;
+  left: 40%;
+  /* margin-right: -50%; */
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
