@@ -21,7 +21,7 @@ export const UpdateData = () => {
       .then((response) => {
         setDataValue(response.data);
       });
-  }, []);
+  }, [id]);
 
   const changeField = (e, isCheckbox) => {
     const hobbies = dataValue.hobbies;

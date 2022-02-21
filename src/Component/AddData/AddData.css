@@ -44,7 +44,7 @@ body .main-div {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 5px 0;
+  padding: 4px 0;
   font-size: 16px;
   color: #fff;
   pointer-events: none;
@@ -55,7 +55,7 @@ body .main-div {
   padding: 13px 0;
   font-size: 16px;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border: none;
   border-bottom: 1px solid #fff;
   outline: none;
@@ -141,4 +141,12 @@ body .main-div {
   gap: 5px;
   margin-top: 40px;
   color: white;
+}
+
+.errors {
+  color: red;
+  margin-bottom: 30px;
+}
+.errorAddress {
+  color: red;
 }

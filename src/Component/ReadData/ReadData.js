@@ -25,7 +25,6 @@ export const ReadData = () => {
         setApiData(getData.data);
       });
   };
-
   const onDelete = (id) => {
     if (window.confirm("Are you sure.. you want to Delete?")) {
       axios
@@ -49,7 +48,6 @@ export const ReadData = () => {
             <th>Hobbies</th>
           </tr>
         </thead>
-
         <tbody>
           {apiData.map((data, index) => {
             return (
@@ -61,7 +59,6 @@ export const ReadData = () => {
                 <td>{data.address}</td>
                 <td>{data.gender}</td>
                 <td>{data.hobbies.join(",")}</td>
-
                 <td>
                   <Link to={`/UpdateData/${data.id}`}>
                     <button
